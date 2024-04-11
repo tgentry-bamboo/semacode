@@ -495,7 +495,7 @@ unsigned char switchcost[E_MAX][E_MAX] = {
 static char *
 encmake (int l, unsigned char *s, int *lenp, char exact)
 {
-  VALUE rb_str = NULL;
+  VALUE rb_str = Qnil;
    char *encoding = 0;
    int p = l;
    char e;
